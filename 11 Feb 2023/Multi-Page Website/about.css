@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+}
+header nav{
+    display: flex;
+    column-gap: 48%;
+    margin-top: 30px;
+}
+#logo{
+    height:50px;
+    width:150px;
+}
+header nav .image{
+    width:145px;
+    margin-left: 12%;
+}
+header nav .options ul{
+    display: flex;
+    list-style: none;
+    column-gap: 12px;
+}
+header nav .options ul li {
+    width:90px;
+    margin-top: 12px;
+
+}
+header nav .options{
+    margin-right: 20%;
+}
+header nav .options ul li a{
+    text-decoration:none;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 220px;
+}
+section .below-box{
+    display: flex;
+    margin-top: 50px;
+    column-gap: 50px;
+    
+}
+section .center span h1,p{
+    text-align: center;
+}
+section .center span h1{
+    font-size: 32px;
+    color: #20bc7e;
+}
+section .center span p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+section .below-box .box1,.box2,.box3{
+    height: 100px;
+    width:200px;
+    box-shadow: 1px 3px 9px 6px rgba(0,0,0,0.42);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 12px;
+}
+section .below-box .box1 span h1,.box2 span h1,.box3 span h1{
+    color: #20bc7e;
+    font-size:26px ;
+}
+section .below-box .box1 span h3,.box2 span h3,.box3 span h3{
+    color:#000000;
+    font-size:20px ;
+}

@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+}
+header nav{
+    display: flex;
+    column-gap: 48%;
+    margin-top: 30px;
+}
+#logo{
+    height:50px;
+    width:150px;
+}
+header nav .image{
+    width:145px;
+    margin-left: 12%;
+}
+header nav .options ul{
+    display: flex;
+    list-style: none;
+    column-gap: 12px;
+}
+header nav .options ul li {
+    width:90px;
+    margin-top: 12px;
+
+}
+header nav .options{
+    margin-right: 20%;
+}
+header nav .options ul li a{
+    text-decoration:none;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+}
+#stethescope{
+    height: 600px;
+    margin-left: 27%;
+    margin-top: 60px;
+}
+#topAngle{
+    margin-left:14.5%;
+    margin-top: 10px;
+}
+#bottomAngle{
+    margin-left: 50%;
+}
+#mouse{
+    height:30px;
+    margin-bottom: -40px;
+    margin-left: 15px;
+}
+section .left-section span h1,h4{
+    margin-left:14.5%;
+}
+section .left-section span h1{
+    font-size: 70px;
+}
+section .left-section span h4{
+    font-size: 18px;
+    color:#7c7c7c;
+    font-weight: 400;
+    width:45%;
+    word-spacing: 0.3px;
+}
+#mkap{
+    margin-top:-2px;
+    margin-left: 14%;
+    padding: 14px 45px;
+    background-color: #20bc7e;
+    font-size: 25px;
+    color: #ffffff;
+    border-style:none ;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+section .left-section{
+    margin-top: -550px;
+    margin-left: -50px;
+}
+section .left-section .first h4 {
+    margin-top: 20px;
+}
+section .right-section{
+    margin-top: -550px;
+    margin-left:900px;
+}
+#green{
+    margin-left:20%;
+    transform: scale(0.85);
+    margin-top: -50px;
+}
+#yellow{
+    margin-left:30%;
+    transform: scale(0.8);
+    margin-top: -700px;
+    margin-bottom: 40px;
+}
+#doctor{
+    float: right;
+    margin-right: -5%;
+    transform: scale(0.75);
+    margin-top: -820px;
+}
